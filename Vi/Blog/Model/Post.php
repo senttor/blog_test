@@ -5,7 +5,7 @@ namespace Vi\Blog\Model;
 
 use \Magento\Framework\Model\AbstractModel;
 use \Magento\Framework\DataObject\IdentityInterface;
-use \vi\Blog\Api\Data\PostInterface;
+use \Vi\Blog\Api\Data\PostInterface;
 
 /**
  * Class File
