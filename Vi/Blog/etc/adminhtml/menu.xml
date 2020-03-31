@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Backend:etc/menu.xsd">
+    <menu>
+        <add id="Vi_Blog::Blog_head" title="Test Blog!!" module="Vi_Blog" sortOrder="100" resource="Vi_Blog::Blog_head" />
+        <add id="Vi_Blog::posts" title="Posts" module="Vi_Blog" sortOrder="10" parent="Vi_Blog::Blog_head" action="blog/posts" resource="Vi_Blog::posts" />
+    </menu>
+</config>
